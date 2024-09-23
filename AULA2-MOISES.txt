@@ -1,0 +1,21 @@
+<!doctype html>
+<htmlnlang="pt-br">
+  <head>
+     <title>aula 04</title>
+  </head>
+  <body>
+       <h1> comida </h1>
+       <h2> arroz  </h2>
+       <p>
+           arroz faz bem pra saúde
+       </p>
+        <p>
+            arroz engorda
+        </p>
+        <h2> feijão </h2>
+        <p>
+            feijão trás força
+        </p>
+        <p> feijão faz muito bem pra saúde
+   </body>
+   </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadoras com entrada</title>
+</head>
+<body>
+    <h1>calculadoras com entradas</h1>
+    <input type="text" id="dados" placeholder="digite aqui seu cálculo">
+    <button onclick="calcular()">calular</button>
+    <hr>
+    <div id="tela"></div>
+</body>
+<footer>
+<script>
+    var x="";
+    function calcular(){
+        x=document.getElementById("dados").value;
+        //alert(x);
+        //cometário
+        x=eval(x);
+        //alert(x);
+        //alert(x)
+        document.getElementById("tela").innerHTML+=x+" <br>";
+    }
+    </script>
+</footer>
+</html>

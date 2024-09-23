@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animações</title>
+    <style type="text/css">
+        div{
+            border:1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+        #a1{background-color: brown;}
+        #a2{background-color: aqua;}
+        #a3{background-color: blueviolet;}
+        #a4{background-color: chartreuse;}
+
+        #a1:hover{border-radius: 100px;transition: 2s;}
+        #a2:hover{transform: rotate(360deg);transition: 2s;}
+        #a3:hover{background-color: springgreen;transition: 2s;}
+        #a4:hover{
+            transform: translate(800px,10px);
+            border-radius: 100px;
+            background-color: crimson;
+            transition: 2s;
+            border: 10px solid blue;
+        } 
+    </style>
+</head>
+<body>
+   <div id="a1"></div>
+   <div id="a2"></div>
+   <div id="a3"></div>
+   <div id="a4"></div>
+</body>
+</html>
